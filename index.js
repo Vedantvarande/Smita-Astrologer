@@ -56,10 +56,10 @@ let message = document.getElementById('message');
         }
       )
       .then(()=>{
-        alert("Data stored")
+        alert("Enquiry request sent")
       })
       .catch((error)=>{
-        alert("Enquiry request sent");
+        alert(error);
       });
     }
     // Assign event to button
